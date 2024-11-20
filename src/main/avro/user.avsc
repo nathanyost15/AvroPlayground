@@ -23,7 +23,8 @@
         },
         {
             "name": "age",
-            "type": "int"
+            "type": "int",
+            "default": 20
         }
     ]
 }
