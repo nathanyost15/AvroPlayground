@@ -11,7 +11,6 @@ import org.apache.avro.specific.SpecificDatumWriter;
 import java.io.File;
 
 public class Main {
-
     public static final String USERS_AVRO = "users.avro";
 
     public static void main(String[] args) {
