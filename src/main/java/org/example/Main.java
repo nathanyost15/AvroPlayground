@@ -34,13 +34,11 @@ public class Main {
             DatumWriter<User> userDatumWriter = new SpecificDatumWriter<>(User.class);
             try (DataFileWriter<User> dataFileWriter = new DataFileWriter<>(userDatumWriter)) {
                 User user1 = new User();
-                user1.setName("Alyssa");
                 user1.setFavoriteNumber(256);
 
 //                User user2 = new User("Ben", 7, "red");
 
                 User user3 = User.newBuilder()
-                        .setName("Charlie")
                         .setFavoriteNumber(null)
                         .build();
                 dataFileWriter.create(user1.getSchema(), new File(USERS_AVRO));

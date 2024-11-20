@@ -4,10 +4,6 @@
     "name": "User",
     "fields": [
         {
-            "name": "name",
-            "type": "string"
-        },
-        {
             "name": "favorite_number",
             "type": [
                 "int",
