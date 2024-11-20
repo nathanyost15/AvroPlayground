@@ -15,13 +15,6 @@
             ]
         },
         {
-            "name": "favorite_color",
-            "type": [
-                "string",
-                "null"
-            ]
-        },
-        {
             "name": "age",
             "type": "int",
             "default": 20

@@ -41,7 +41,6 @@ public class Main {
 
                 User user3 = User.newBuilder()
                         .setName("Charlie")
-                        .setFavoriteColor("blue")
                         .setFavoriteNumber(null)
                         .build();
                 dataFileWriter.create(user1.getSchema(), new File(USERS_AVRO));
