@@ -37,7 +37,7 @@ public class Main {
                 user1.setName("Alyssa");
                 user1.setFavoriteNumber(256);
 
-                User user2 = new User("Ben", 7, "red");
+//                User user2 = new User("Ben", 7, "red");
 
                 User user3 = User.newBuilder()
                         .setName("Charlie")
@@ -46,7 +46,7 @@ public class Main {
                         .build();
                 dataFileWriter.create(user1.getSchema(), new File(USERS_AVRO));
                 dataFileWriter.append(user1);
-                dataFileWriter.append(user2);
+//                dataFileWriter.append(user2);
                 dataFileWriter.append(user3);
             } catch (Exception exception) {
                 System.err.println("Unable to write users to disk: " + exception.getMessage());

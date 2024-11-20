@@ -20,6 +20,10 @@
                 "string",
                 "null"
             ]
+        },
+        {
+            "name": "age",
+            "type": "int"
         }
     ]
 }
